@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+a,
+img,
+button,
+input,
+select,
+span,
+i {
+  display: inline-block;
+}
+body {
+  background: url(images/bg-pattern-top-desktop.svg),
+    url(images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+}
+.card-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 4rem 4rem 0 4rem;
+}
+.card-text h2 {
+  font-size: 4em;
+  color: purple;
+  line-height: 3rem;
+}
+.card-text p {
+  padding: 1rem 2rem 0rem 0rem;
+  color: rosybrown;
+  font-size: 1.3em;
+}
+.card-rating div {
+  margin: 1rem;
+  background-color: seashell;
+  color: purple;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: clamp(10rem, 25rem, 25rem);
+}
+.card-rating span {
+  font-weight: bolder;
+}
+.card-rating span {
+  padding-left: 1rem;
+}
+.card-rating div:nth-child(2) {
+  margin-left: 4rem;
+}
+.card-rating div:last-child {
+  margin-left: 8rem;
+}
+.buyer-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 4rem;
+  gap: 2rem;
+}
+.buyer-cards img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 5rem;
+}
+.buyer-cards section {
+  background-color: purple;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  width: 25rem;
+  height: 17rem;
+}
+.buyer-cards span {
+  color: violet;
+}
+.buyer-cards p {
+  padding-top: 2rem;
+}
+.buyer-intro {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.buyer-intro div {
+  padding: 0.5rem;
+}
+
+.buyer-cards section:nth-child(2) {
+  margin-top: 2rem;
+}
+.buyer-cards section:last-child {
+  margin-top: 4rem;
+}
